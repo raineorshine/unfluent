@@ -3,6 +3,15 @@
 
 A simple wrapper that calls a Fluent Interface with a configuration object.
 
+> In software engineering, a fluent interface is an object-oriented API whose design relies extensively on method chaining. Its goal is to increase code legibility by creating a domain-specific language (DSL).
+
+<https://en.wikipedia.org/wiki/Fluent_interface>
+
+**Why bad?**
+
+- Javascript has a native object literal syntax that is just as DSL-like
+- Method chaining can hide mutations
+
 ## Install
 
 ```sh
@@ -17,6 +26,7 @@ const unfluent = require('unfluent')
 
 unfluent(commander, {
   options: [
+    ['--d, -d', 'do something']
   ],
 })
 ```

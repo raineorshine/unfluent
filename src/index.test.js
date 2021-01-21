@@ -1,5 +1,5 @@
 const unfluent = require('./index')
 
 test('unfluent', () => {
-  expect(true).toBe(true)
+  expect(unfluent).toBe(unfluent)
 })

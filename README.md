@@ -9,8 +9,9 @@ A simple wrapper that calls a Fluent Interface with a configuration object.
 
 **Why bad?**
 
-- Javascript has a native object literal syntax that is just as DSL-like
-- Method chaining can hide mutations
+- Javascript has a native object literal syntax (JSON) that is just as DSL-like
+- JSON is serializable
+- Method chaining obscures mutations
 
 ## Install
 
